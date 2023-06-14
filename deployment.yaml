@@ -6,13 +6,13 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: redis
+      app: redis-master
       role: master
       tier: backend
   template:
     metadata:
       labels:
-        app: redis
+        app: redis-master
         role: master
         tier: backend
   spec:
