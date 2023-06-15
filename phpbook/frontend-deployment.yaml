@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: frontend
-  namespace: school-of-net
+  namespace: teste
 spec:
   replicas: 3
   selector:
