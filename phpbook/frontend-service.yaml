@@ -13,4 +13,6 @@ spec:
   type: LoadBalancer  
   ports:
   - port: 80
+  #necessário inserir o IP externo para conexão do frontend.
+  #esse ip normalmente está em um cloud 
    
