@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: redis-slave
-  #namespace: school-of-net
+  #namespace: teste
 spec:
   replicas: 2
   selector:
