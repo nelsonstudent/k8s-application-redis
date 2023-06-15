@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: redis-master
-  # namespace: argo-cd
+  # namespace: teste
 spec:
   replicas: 1
   selector:
